@@ -1,0 +1,12 @@
+tempfile.txt
+# Comment
+.DS_Store
+*.zip
+*.gz
+# this would ignore log/foo.log
+# but not log/bar/foo.log
+log/*.log
+log/*.log.[0-9]
+assets/photoshop/
+assets/videos/
+!assets/videos/tour_*.mp4
